@@ -8,7 +8,7 @@ from django.urls import reverse
 from rest_framework.response import Response
 from rest_framework import status
 from .models import Song
-from .serializer import SongSerializer
+from .serializers import SongSerializer
 
 # Create your views here.
 
